@@ -12,3 +12,20 @@ console.log(typeof value);
 //number
 //boolean
 //function
+
+function two(){
+  return function(){
+    console.log('TWO');
+  }
+}
+let myFunction = two();
+myFunction();
+
+
+function three(){
+  return function(){
+    return 'THREE';
+  }
+}
+
+console.log(three()());
