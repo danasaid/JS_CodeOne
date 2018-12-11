@@ -1,3 +1,9 @@
+var = myVariable = 'This variable is at the global scope';
+
+var myFunction = function(){
+    console.log('me too');
+}
+
 function one(){
   return 'one';
 }
