@@ -1,3 +1,4 @@
+/*
 let car = {
     make:  'BMW',
     model: '745i',
@@ -24,3 +25,17 @@ var a ={
     myProperty: {b: 'Hi'}
 }
 console.log(a.myProperty.b);
+
+*/
+
+var c = {
+  myProperty: [
+    { d: 'this'},
+    { e: 'can'},
+    { f: 'get'},
+    { g: 'crazy'}
+  ]
+};
+console.log(c);
+console.log(c.myProperty[0]);
+console.log(c.myProperty[(d)]);
