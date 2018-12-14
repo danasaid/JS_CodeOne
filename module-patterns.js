@@ -1,4 +1,4 @@
-var counter = (function(){
+var counter = (function() {
     //private stuff
     let count = 0;
 
@@ -8,12 +8,12 @@ var counter = (function(){
     }
 
     // return an object
-    return{
+    return {
         //value: count,
-        get: funtion() { return count; },
-        set: funtion(value) { count = value; },
+        get: function () { return count; },
+        set: function (value) { count = value; },
 
-        increment: function(){
+        increment: function() {
             count += 1;
             print('After increment: ');
         },
